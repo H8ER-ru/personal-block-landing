@@ -5,9 +5,49 @@
   padding: 2.5rem
   border-radius: 5px
   overflow: hidden
+  &__description
+    font-size: 1.4rem
+    color: white
+  &__subtitle
+    font-size: 1.6rem
+    color: white
+    font-weight: 500
+    margin-bottom: 2rem
+    margin-top: 3rem
   &__text
     font-size: 1.4rem
     color: #D2D2D2
+    border-bottom: 1px solid #1c1c1c
+    & h2, h3,h4,h5, h6
+      font-size: 2rem
+      font-weight: 700
+    & h2
+      font-size: 1.5rem
+    & h3
+      font-size: 1.25rem
+    & h4
+      font-size: 1.15rem
+    & h5, h6
+      font-size: 1rem
+    & ul, ol
+      margin-bottom: 2rem
+    & ol
+      list-style: decimal inside
+    & p
+      margin-bottom: 2rem
+    & table
+      width: 100%
+      margin-bottom: 2rem
+    & img
+      width: 100%
+      display: block
+      margin-bottom: 2rem
+      height: auto
+    & a
+      color: $blue
+      text-decoration: none
+      &:hover
+        text-decoration: underline
   &__data
     color: #828282
     line-height: 1.2
@@ -61,7 +101,7 @@
         text-decoration: underline
     &_icon
       margin-left: .5rem
-      margin-bottom: -0.6rem;
+      margin-bottom: -0.6rem
   &__footer
     display: flex
     align-items: center
