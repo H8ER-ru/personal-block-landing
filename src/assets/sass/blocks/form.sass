@@ -1,7 +1,12 @@
 .form
+  &--auth
+    max-width: 28rem
+    margin: 0 auto
   &__group
     position: relative
     margin-bottom: 1.5rem
+    &--md
+      margin-bottom: 2.5rem
   &__control
     display: block
     background: none
@@ -12,7 +17,7 @@
     font-family: inherit
     font-size: 1.4rem
     color: white
-    padding: .5rem 0
+    padding: .5rem 0 .75rem
     border-bottom: 1px solid #3F3F3F
     &::placeholder
       color: rgba(white, .2)
@@ -31,3 +36,19 @@
     left: 0
     bottom: 0
     z-index: 1
+  &__footer
+    &--center
+      text-align: center
+    &--list
+      display: flex
+      justify-content: center
+      font-size: 1.2rem
+
+      li
+        margin: 0 .5rem
+        a
+          color: white
+          text-decoration: none
+          transition: underline .3s linear
+          &:hover
+            text-decoration: underline
