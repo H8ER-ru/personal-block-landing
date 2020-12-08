@@ -19,15 +19,22 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="986cc01c-6f4a-4bee-8390-0c0d0dd7f585" name="Default Changelist" comment="works and search">
-      <change afterPath="$PROJECT_DIR$/src/profile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sign_in.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sing_up.html" afterDir="false" />
+    <list default="true" id="986cc01c-6f4a-4bee-8390-0c0d0dd7f585" name="Default Changelist" comment="register and sing in">
+      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/X.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/sass/blocks/modal.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/partials/contact-modal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/partials/story-modal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reset.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/sass/blocks/form.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sass/blocks/form.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sass/blocks/_sidebar.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sass/blocks/_sidebar.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sass/blocks/_vars.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sass/blocks/_vars.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/sass/blocks/page.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sass/blocks/page.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/sass/blocks/profile.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sass/blocks/profile.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/sass/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/sass/style.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/default.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/partials/sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/sidebar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sign_in.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/sign_in.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sing_up.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/sing_up.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +111,8 @@
       <workItem from="1606580463802" duration="82000" />
       <workItem from="1606825154373" duration="5575000" />
       <workItem from="1606852608572" duration="300000" />
-      <workItem from="1607087459452" duration="7113000" />
+      <workItem from="1607087459452" duration="7466000" />
+      <workItem from="1607408601283" duration="4650000" />
     </task>
     <task id="LOCAL-00001" summary="post and comment block">
       <created>1606565795996</created>
@@ -120,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606831006454</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="register and sing in">
+      <created>1607098112575</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607098112575</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,7 +157,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="post and comment block" />
     <MESSAGE value="works and search" />
-    <option name="LAST_COMMIT_MESSAGE" value="works and search" />
+    <MESSAGE value="register and sing in" />
+    <option name="LAST_COMMIT_MESSAGE" value="register and sing in" />
   </component>
   <component name="WindowStateProjectService">
     <state x="740" y="318" key="FileChooserDialogImpl" timestamp="1606207942195">
@@ -161,10 +177,10 @@
       <screen x="0" y="46" width="1920" height="1034" />
     </state>
     <state x="491" y="209" key="SettingsEditor/0.46.1920.1034/1920.40.1920.1040@0.46.1920.1034" timestamp="1605519436702" />
-    <state x="552" y="296" key="Vcs.Push.Dialog.v2" timestamp="1606830955328">
+    <state x="552" y="296" key="Vcs.Push.Dialog.v2" timestamp="1607098134771">
       <screen x="0" y="46" width="1920" height="1034" />
     </state>
-    <state x="552" y="296" key="Vcs.Push.Dialog.v2/0.46.1920.1034/1920.40.1920.1040@0.46.1920.1034" timestamp="1606830955328" />
+    <state x="552" y="296" key="Vcs.Push.Dialog.v2/0.46.1920.1034/1920.40.1920.1040@0.46.1920.1034" timestamp="1607098134771" />
     <state x="616" y="262" key="run.anything.popup" timestamp="1605527074317">
       <screen x="0" y="46" width="1920" height="1034" />
     </state>
